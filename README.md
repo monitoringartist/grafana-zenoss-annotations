@@ -22,8 +22,8 @@ It's paid plugin a is distributed only as a private Docker image.
 # initialize Grafana Zenoss Annotations plugin container (private Docker image)
 docker run \
   -d \
-  --name grafana-zenoss-annotations \
-  monitoringartist/grafana-zenoss-annotations:latest
+  --name zenoss-annotations \
+  monitoringartist/zenoss-annotations:latest
 
 # create /var/lib/grafana as persistent volume storage
 docker run \
@@ -38,7 +38,7 @@ docker run \
   -p 3000:3000 \
   --name grafana-xxl \
   --volumes-from grafana-xxl-storage \
-  --volumes-from grafana-zenoss-annotations \
+  --volumes-from zenoss-annotations \
   monitoringartist/grafana-xxl:3.0
 ```
 
