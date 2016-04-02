@@ -14,7 +14,7 @@ Supported Zenoss versions:
 - Zenoss Core 4.2.x
 - Zenoss Resource Manager 4.2.x
 
-It's paid plugin a is distributed only as private Docker image.
+It's paid plugin a is distributed only as a private Docker image.
 
 # Installation
 
@@ -45,7 +45,7 @@ docker run \
 # Grafana support
 
 We are happy to help you with any your Grafana issues. Please contact us
-info@monitoringartist.com and ask for our profession consulting service.
+info@monitoringartist.com and ask for our professional consulting services.
 
 # Author
 
